@@ -1,0 +1,47 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.numerador-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.opcion-container {
+  background-color: rgb(133, 202, 133);
+  height: 200px;
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.botones {
+  height: 150px;
+  width: 150px;
+}
+
+.textos {
+  font-size: 80px;
+}
